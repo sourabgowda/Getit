@@ -12,6 +12,7 @@
         android:text="@string/Name"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
     <EditText
+        android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/Enter"
@@ -24,6 +25,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
 
     <EditText
+        android:id="@+id/phonenumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/EnterPh"
@@ -35,16 +37,19 @@
         android:text="@string/Designation"
         android:textAppearance="@style/TextAppearance.AppCompat.Button" />
     <Spinner
+        android:id="@+id/designation"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:entries="@array/logindesignation">
     </Spinner>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/Login"
+        android:onClick="onLoginClick"
         android:textAppearance="@android:style/TextAppearance.StatusBar.Title" />
 
 </LinearLayout>

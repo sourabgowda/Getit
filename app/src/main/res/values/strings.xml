@@ -15,4 +15,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Inbox">Inbox</string>
     <string name="Faculty">Faculty</string>
+
+    <string-array name="logindesignation">
+        <item>Principal</item>
+        <item>Faculty</item>
+        <item>Student</item>
+    </string-array>
 </resources>
