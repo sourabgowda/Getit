@@ -3,7 +3,6 @@
     package="com.example.chandan.getit">
 
     <application
-
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -14,18 +13,29 @@
             android:name=".SplashActivity"
             android:theme="@style/Splash">
             <intent-filter>
-            <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
-        </intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login" />
         <activity
             android:name=".PrincipalActivity"
-            android:label="Principal">
+            android:label="Principal" />
+        <activity
+            android:name=".FacultyActivity"
+            android:label="Faculty" />
+        <activity
+            android:name=".SelectAddActivity"
+            android:label="SelectAdd" />
+        <activity
+            android:name=".AddFacultyActivity"
+            android:label="Add Faculty" />
 
-        </activity>
-        <activity android:name=".FacultyActivity"></activity>
+        <activity android:name=".AddStudentActivity"
+            android:label="Add Student"></activity>
     </application>
 
 </manifest>

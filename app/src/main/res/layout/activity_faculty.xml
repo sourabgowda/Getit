@@ -4,17 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.chandan.getit.FacultyActivity">
+
     <Button
         android:id="@+id/People"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:drawableTop="@drawable/people"
-        android:contentDescription="@string/People"
-        android:text="@string/addpeople"
-        android:layout_marginBottom="28dp"
         android:layout_above="@+id/settings"
         android:layout_alignLeft="@+id/settings"
-        android:layout_alignStart="@+id/settings" />
+        android:layout_alignStart="@+id/settings"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/People"
+        android:drawableTop="@drawable/people"
+        android:onClick="facultyadd"
+        android:text="@string/addpeople" />
 
     <Button
         android:id="@+id/Notifiy"

@@ -15,10 +15,30 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="Inbox">Inbox</string>
     <string name="Faculty">Faculty</string>
+    <string name="student">Student</string>
+    <string name="Email">Email</string>
+    <string name="EnterEmail">Enter email</string>
+    <string name="Department">Department</string>
+    <string name="Add">Add</string>
+    <string name="semester">Semester</string>
+    <string name="USN">USN</string>
+    <string name="EnterUsn">Enter USN</string>
 
     <string-array name="logindesignation">
         <item>Principal</item>
         <item>Faculty</item>
         <item>Student</item>
+    </string-array>
+
+    <string-array name="semester">
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>ALL</item>
     </string-array>
 </resources>
