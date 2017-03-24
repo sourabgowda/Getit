@@ -33,7 +33,7 @@
         android:id="@+id/Inbox"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:drawableTop="@drawable/createnote"
+        android:drawableTop="@drawable/inbox"
         android:text="@string/Inbox"
         android:layout_marginBottom="24dp"
         android:layout_alignParentBottom="true"

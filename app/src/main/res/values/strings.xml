@@ -30,6 +30,16 @@
         <item>Student</item>
     </string-array>
 
+    <string-array name="facultydesignation">
+        <item>HOD</item>
+        <item>Associate Professor</item>
+        <item>Assistant Professor</item>
+    </string-array>
+
+    <string-array name="depts">
+        <item>computer science</item>
+        <item>civil</item>
+    </string-array>
     <string-array name="semester">
         <item>1st</item>
         <item>2nd</item>

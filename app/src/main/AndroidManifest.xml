@@ -12,11 +12,7 @@
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Splash">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".LoginActivity"
@@ -32,10 +28,20 @@
             android:label="SelectAdd" />
         <activity
             android:name=".AddFacultyActivity"
-            android:label="Add Faculty" />
+            android:label="Add Faculty" >
+
+            </activity>
 
         <activity android:name=".AddStudentActivity"
-            android:label="Add Student"></activity>
+            android:label="Add Student">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+    </activity>
     </application>
 
 </manifest>
