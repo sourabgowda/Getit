@@ -14,6 +14,10 @@
           <option name="url" value="https://github.com/manishkpr/android-material-design-tabs-collapsible.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/delaroy/RecyclerViewFragment.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="C:\Users\Chandan\AndroidStudioProjects" />
